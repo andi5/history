@@ -1,3 +1,17 @@
+## [HEAD]
+
+- **Bugfix:** Fail gracefully when disabled cookies prevent access to window.sessionStorage ([#397])
+
+[#397]: https://github.com/mjackson/history/issues/397
+
+## [v3.2.1]
+> Sep 2, 2016
+
+- **Bugfix:** Fixed ReferenceError when accessing `window` ([#360])
+
+[v3.2.1]: https://github.com/mjackson/history/compare/v3.2.0...v3.2.1
+[#360] https://github.com/mjackson/history/pull/360
+
 ## [v3.2.0]
 > Sep 1, 2016
 
